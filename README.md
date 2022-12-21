@@ -1,8 +1,6 @@
-# dyne
+# Dyne
 
-Code for Humanoids '22 paper
-
-Dyne is the codename for our proprioceptive state estimator for legged robots
+Code for our Humanoids '22 paper "Proprioceptive State Estimation with Kinematic Chain Modeling".
 
 ## Repo Structure
 

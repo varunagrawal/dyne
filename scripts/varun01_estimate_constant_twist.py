@@ -9,8 +9,8 @@ python scripts/varun01_estimate_constant_twist.py --num_poses 20 data/pybullet/c
 import gtsam
 import numpy as np
 
-from lrse import arguments, datasets, plot, utils
-from lrse.state_estimator import BaseImu, RobotImu
+from dyne import arguments, datasets, plot, utils
+from dyne.state_estimator import BaseImu, RobotImu
 
 POSES_FIG = 1
 FIG_RESULT = 2

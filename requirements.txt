@@ -1,0 +1,8 @@
+gtsam
+loguru
+seaborn
+tqdm
+pyyaml
+evo
+tabulate
+plotly

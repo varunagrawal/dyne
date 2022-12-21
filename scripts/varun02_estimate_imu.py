@@ -9,10 +9,10 @@ python scripts/varun02_estimate_imu.py -T 4.995 data/atlas/straight_line.yaml
 import gtsam
 import numpy as np
 
-from lrse import datasets
-from lrse.arguments import parse_args, parse_config
-from lrse.state_estimator import BaseImu, RobotImu
-from lrse.utils import load_imu_params
+from dyne import datasets
+from dyne.arguments import parse_args, parse_config
+from dyne.state_estimator import BaseImu, RobotImu
+from dyne.utils import load_imu_params
 
 POSES_FIG = 1
 FIG_RESULT = 2

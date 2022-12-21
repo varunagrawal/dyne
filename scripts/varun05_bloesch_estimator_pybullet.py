@@ -8,10 +8,11 @@ from pathlib import Path
 
 import gtsam
 import numpy as np
-from lrse import datasets, plot, utils
-from lrse.arguments import parse_args, parse_config
-from lrse.noise_models import a1_noise
-from lrse.state_estimator import Bloesch, RobotImu
+
+from dyne import datasets, plot, utils
+from dyne.arguments import parse_args, parse_config
+from dyne.noise_models import a1_noise
+from dyne.state_estimator import Bloesch, RobotImu
 
 DATA_DIR = Path(__file__).parent.parent.absolute() / "data"
 MODEL_DIR = Path(__file__).parent.parent.absolute() / "models"

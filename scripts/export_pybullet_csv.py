@@ -7,8 +7,9 @@ python scripts/export_pybullet_csv.py data/pybullet/config.yaml --robot models/a
 from pathlib import Path
 
 import numpy as np
-from lrse import datasets, utils
-from lrse.arguments import parse_args, parse_config
+
+from dyne import datasets, utils
+from dyne.arguments import parse_args, parse_config
 
 DATA_DIR = Path(__file__).parent.parent.absolute() / "data"
 MODEL_DIR = Path(__file__).parent.parent.absolute() / "models"

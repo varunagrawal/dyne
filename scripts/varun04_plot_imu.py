@@ -8,8 +8,9 @@ python scripts/varun04_plot_imu.py data/pybullet/config.yaml --robot models/a1.u
 
 import gtdynamics as gtd
 import numpy as np
-from lrse import datasets
-from lrse.arguments import parse_args, parse_config
+
+from dyne import datasets
+from dyne.arguments import parse_args, parse_config
 
 POSES_FIG = 1
 FIG_RESULT = 2

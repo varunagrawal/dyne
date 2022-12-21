@@ -4,9 +4,9 @@
 
 import numpy as np
 
-from lrse import datasets
-from lrse.arguments import parse_args, parse_config
-from lrse.utils import load_imu_params
+from dyne import datasets
+from dyne.arguments import parse_args, parse_config
+from dyne.utils import load_imu_params
 
 np.set_printoptions(precision=18, suppress=True)
 
@@ -18,9 +18,9 @@ def main():
 
     imu_params = load_imu_params(config.imu_yaml)
     data = datasets.SCSDataset(config.measurements,
-                              config.ground_truth,
-                              skip=config.skip,
-                              bRs=imu_params["pose"].rotation())
+                               config.ground_truth,
+                               skip=config.skip,
+                               bRs=imu_params["pose"].rotation())
 
     freq = data.compute_frequency()
     print(freq.round())

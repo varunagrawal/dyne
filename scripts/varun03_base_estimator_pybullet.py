@@ -6,12 +6,10 @@ python scripts/varun03_base_estimator_pybullet.py data/pybullet/config.yaml --ro
 
 import pathlib
 
-import numpy as np
-
-from lrse import datasets, utils
-from lrse.arguments import parse_args, parse_config
-from lrse.plot import plot_results
-from lrse.state_estimator import BaseImu, RobotImu
+from dyne import datasets, utils
+from dyne.arguments import parse_args, parse_config
+from dyne.plot import plot_results
+from dyne.state_estimator import BaseImu, RobotImu
 
 DATA_DIR = pathlib.Path(__file__).parent.parent.absolute() / "data"
 MODEL_DIR = pathlib.Path(__file__).parent.parent.absolute() / "models"

@@ -14,7 +14,7 @@ import gtdynamics as gtd
 import gtsam
 import kinpy as kp
 import numpy as np
-from lrse.datasets import PybulletDataset
+from dyne.datasets import PybulletDataset
 
 
 def parse_args():

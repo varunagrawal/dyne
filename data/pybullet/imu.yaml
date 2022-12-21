@@ -1,0 +1,21 @@
+gyroscope:
+  # gyro "white noise" gaussian parameters
+  noise: # [ rad / s / sqrt(Hz) ]
+    mean: 0.0
+    stddev: 5.886e-4
+  # gyro bias diffusion
+  bias: # [ rad / s^2 / sqrt(Hz) ]
+    mean: [0.0, 0.0, 0.0]
+    stddev: 1.472e-5
+accelerometer:
+  # accel "white noise" gaussian parameters
+  noise: # [ m / s^2 / sqrt(Hz) ]
+    mean: 0.0
+    stddev: 1.745e-4
+  bias: # [ m / s^3 / sqrt(Hz) ]
+    mean: [0.0, 0.0, 0.0]
+    stddev: 4.848e-6
+rate_hz: 200
+
+# x y z roll pitch yaw
+pose: [0.0, 0.0, 0.0, 0, 0, 0]

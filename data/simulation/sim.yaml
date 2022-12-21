@@ -1,0 +1,5 @@
+imu_yaml: "imu.yaml"
+measurements: "twist_measurements.csv"
+ground_truth: "twist_ground_truth.csv"
+time: 12 # seconds
+skip: 0

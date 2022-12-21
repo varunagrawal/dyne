@@ -1,0 +1,5 @@
+imu_yaml: "imu.yaml"
+measurements: ""
+ground_truth: ""
+total_time: 20.0  # time in seconds
+skip: 0

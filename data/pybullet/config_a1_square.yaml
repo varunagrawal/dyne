@@ -1,0 +1,11 @@
+imu_yaml: "imu.yaml"
+measurements: "a1_walking_square.npz"
+ground_truth: "a1_walking_square.npz"
+total_time: 16.0  # time in seconds
+robot_file: "a1.urdf"
+contact_in_com:
+  FR_toe: [0, 0, 0]
+  FL_toe: [0, 0, 0]
+  RR_toe: [0, 0, 0]
+  RL_toe: [0, 0, 0]
+skip: 0

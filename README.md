@@ -45,3 +45,19 @@ We provide the following estimators:
 1. `BaseImu`: This is an IMU-only dead-reckoning based estimator which relies on IMU preintegration. Liable to drift due to varying bias.
 2. `Bloesch`: This is a factor-graph based implementation of the state estimator proposed by Bloesch et. al. in "Consistent Fusion of Leg Kinematics and IMU".
 3. `Dyne`: Our state estimator proposed in the Humanoids 2022 paper.
+
+## Citing
+
+If you use `dyne` in an academic context, please cite the following:
+
+```
+@INPROCEEDINGS{Agrawal22humanoids,
+  author={Agrawal, Varun and Bertrand, Sylvain and Griffin, Robert and Dellaert, Frank},
+  booktitle={2022 IEEE-RAS 21st International Conference on Humanoid Robots (Humanoids)}, 
+  title={Proprioceptive State Estimation of Legged Robots with Kinematic Chain Modeling}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={178-185},
+  doi={10.1109/Humanoids53995.2022.10000099}}
+```
